@@ -58,7 +58,7 @@ export default function Home({
         ))}
       </Marquee>
       <Hero
-        headline=" Your One Stop Car Spot"
+        headline=" Get a new car today!"
         description=" Take a gander at our new top of the line inventory!"      />
       <Grid layout="B" variant="filled">
         {products.slice(0, 3).map((product: any, i: number) => (
